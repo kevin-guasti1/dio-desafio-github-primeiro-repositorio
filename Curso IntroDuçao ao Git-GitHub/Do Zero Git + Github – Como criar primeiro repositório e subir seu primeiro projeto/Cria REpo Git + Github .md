@@ -44,7 +44,7 @@ Agora, é preciso preencher o nome do novo repositório e colocar uma breve desc
 
 Quando você clicar em “Create repository”, vem a chave para nosso primeiro teste: todos os comandos que precisamos executar em nosso PC para conseguir “subir” nosso primeiro arquivo! Segura esses comandos aí que, já já, vamos precisar deles.
 
-![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-1.gif)
+![.](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-1.gif)
 
 #### Criar projeto básico Spring Initializr
 
@@ -53,9 +53,13 @@ Mas, para enviar ao GitHub utilizando o Git, podemos usar qualquer projeto ou co
 
 - Em “Project”: “Maven Project”; Em “Language”: “Java”; Em “Spring Boot”: A versão que já vier marcada;
 - Em “Project Metadata”: Eu preencho assim: “Group”: “com.isagiongo”; “Artifact”: “basic-git”; “Name”: “basic-git”; “Description”: “Testing Git”; “Package name”: “com.isagiongo.basic-git”;
-- Em “Packaging”: “Jar”; Em “Java”: “8”; (não precisa selecionar nenhuma dependência no momento). Agora basta clicar em Generate que o site vai baixar nossa base de projeto em um arquivo compactado.![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-2.gif)
+- Em “Packaging”: “Jar”; Em “Java”: “8”; (não precisa selecionar nenhuma dependência no momento). Agora basta clicar em Generate que o site vai baixar nossa base de projeto em um arquivo compactado.
+- 
+- ![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-2.gif)
 
-Descompacte esse arquivo em seu diretório(pasta) de projetos-java, por exemplo. Acesse a pasta que você acabou de descompactar. Você deve conseguir ver pelo menos o seguinte lá dentro:![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-3.png)
+Descompacte esse arquivo em seu diretório(pasta) de projetos-java, por exemplo. Acesse a pasta que você acabou de descompactar. Você deve conseguir ver pelo menos o seguinte lá dentro:
+
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-3.png)
 
 #### Comandos para inicializar nosso repositório e subir nosso projeto para o GitHub
 
@@ -67,7 +71,9 @@ Quando utilizamos “git add”, enviamos o arquivo para o “staging area” (�
 
 Ao executar “git commit”, vamos pegar tudo que foi enviado com git add ao staging área e “tirar uma foto” do estado atual do projeto e registrar isso no nosso repositório local.
 
-E, por fim, o comando “git push”, vai enviar essas alterações commitadas para o repositório remoto.![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-4.png)
+E, por fim, o comando “git push”, vai enviar essas alterações commitadas para o repositório remoto.
+
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-4.png)
 
 Estando dentro da pasta do seu projeto, vamos digitar os seguintes comandos:
 
@@ -93,21 +99,31 @@ Estando dentro da pasta do seu projeto, vamos digitar os seguintes comandos:
 
 - E, por fim, enviar essas alterações lá para o nosso repositório do GitHub
 
-*git push -u origin master*![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-5.gif)
+*git push -u origin master*
+
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-5.gif)
 
 **Pronto! Nosso projeto já está na nossa página do GitHub!**
 
-Só para fazer um teste, vamos editar nosso arquivo de README, acrescentando algumas informações para comprovar que o Git está mesmo “monitorando” nossas alterações. E, claro, vamos novamente enviar o que alteramos em nosso projeto para nosso repositório remoto.![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-6.gif)
+Só para fazer um teste, vamos editar nosso arquivo de README, acrescentando algumas informações para comprovar que o Git está mesmo “monitorando” nossas alterações. E, claro, vamos novamente enviar o que alteramos em nosso projeto para nosso repositório remoto.
 
-Se nenhum arquivo de nosso projeto tiver sido alterado, ao executar o comando git status, temos como resultado:![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-7.png)
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-6.gif)
+
+Se nenhum arquivo de nosso projeto tiver sido alterado, ao executar o comando git status, temos como resultado:
+
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-7.png)
 
 Isso nos informa que estamos trabalhando na branch master (assunto para próximos posts) e que estamos atualizados em relação ao que está no nosso repositório remoto (no GitHub). E nos informa também que, não temos nada a commitar, pois não acrescentamos nenhuma alteração.
 
 Agora vamos alterar e salvar o arquivo README, acrescentando qualquer informação. Após isso, vamos testar o comando git status novamente.
 
-Agora sim, temos a informação de que um arquivo foi modificado e que temos o que commitar.![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-8.png)
+Agora sim, temos a informação de que um arquivo foi modificado e que temos o que commitar.
 
-E assim faremos! Vamos adicionar o arquivo com git add README.md, commitar informando uma mensagem do que alteramos com git commit -m “mensagem” e enviar ao repositório remoto no GitHub com o comando git push.![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-9.gif)
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-8.png)
+
+E assim faremos! Vamos adicionar o arquivo com git add README.md, commitar informando uma mensagem do que alteramos com git commit -m “mensagem” e enviar ao repositório remoto no GitHub com o comando git push.
+
+![](C:\Users\Kevin Guasti\Documents\Desafios de Projeto DIO\Desafio Git-GitHUb\dio-desafio-github-primeiro-repositorio\Curso IntroDuçao ao Git-GitHub\Do Zero Git + Github – Como criar primeiro repositório e subir seu primeiro projeto\IMAGEM-9.gif)
 
 E essa é a rotina básica de uso do Git! Toda vez que fizermos algum acréscimo ou alteração em nosso projeto, podemos adicionar e submeter essas alterações ao nosso repositório!
 
